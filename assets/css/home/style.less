@@ -1,0 +1,288 @@
+
+
+
+
+// Colors ----------------------------//
+@color-background-1:#fafafa;
+@color-background-2:#F0F3FA;
+@color-text-body:#3270B3;
+@color-cta-1:#8f32b3;
+@color-cta-2:#a4b332;
+
+
+// Containers ------------------- //
+.container-body-100 {
+  margin: 0 auto;
+  background: @color-background-1;
+  z-index: 0;
+  min-height: 100%;
+}
+.container-content-67 {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+  margin: auto;
+}
+
+// Fonts (1) ------------------------------//
+.font-h1{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size:64px;
+  margin-bottom: .33em;
+  letter-spacing: -.5px;
+  color:#3270B3;
+}
+// H2 text and divider start//
+.font-h2{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size:42px;
+  color:#3270B3;
+}
+
+.font-divider-h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color:#3270B3;
+  border-bottom:1px solid;
+  line-height: 0.1em;
+  margin:0 0 1.33em 0;
+  span{
+    background:@color-background-1;
+    padding:0 1rem 0 0;
+    font-size:28px;
+    letter-spacing: -.5px;
+  }
+}
+
+.font-h3{
+  font-family: "Outfit", sans-serif;
+  margin: 0 0 .33rem 0;
+  line-height: 150%;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size:22px;
+}
+
+.font-h4{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing:auto;
+  font-size:19px;
+  font-weight: 600;
+  text-align: left;
+  line-height:140%;
+}
+
+.font-p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:18px;
+  line-height:135%;
+  color:@color-text-body;
+  margin:0;
+}
+
+.font-anchor {
+  .font-p;
+  text-decoration: none;
+  font-weight: 300;
+  &:hover{
+  }
+}
+
+.font-button {
+  .font-p;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.font-caption{
+  .font-p;
+  font-size:16.5px;
+  font-weight:400;
+}
+
+.jump-spots{
+    scroll-margin-top: 100px;
+}
+
+// Fonts (2) ------------------------------//
+h1{
+  .font-h1;
+}
+p{
+  .font-p;
+}
+
+// Styles ----------------------------//
+html{
+  scroll-behavior: smooth;
+  body{
+  .container-body-100;
+    main{
+      #row-background-1{
+          background:#F0F3FA;
+        #row-1{
+          .container-content-67;
+          padding:12vh 0 6vh 0;
+          #row-1-column-grid{
+            display:grid;
+            grid-template-columns: 2fr 1fr;
+            grid-column-gap:2rem;
+            #row-1-column-1{
+              p{
+                margin-bottom:3rem;
+              }
+              ul{
+                margin-left:0;
+                padding-left:0;
+                li{
+                  list-style-type:none;
+                  &:nth-child(1){
+                    margin-bottom:.66rem;
+                  }
+                  span{
+                    .font-h2;
+                    font-size:22px;
+                    margin-right:.66rem;
+                  }
+                  a{
+                    .font-h2;
+                    font-size:24px;
+                    font-weight:700;
+                    transition:.33s;
+                    letter-spacing:.66px;
+                    text-decoration:none;
+                    &:hover{
+                      color:@color-cta-1;
+                    }
+                  }
+                }
+              }
+            }
+            #row-1-column-2{
+              img{
+                max-width:100%;
+                min-width:100%;
+                float:right;
+                border-radius:2px;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+              }
+              ul{
+                margin:0;
+                padding-left:0;
+                float:right;
+                li{
+                  list-style-type:none;
+                  &:nth-child(1){
+                    margin-right:.66rem;
+                  }
+                  a{
+                    img{
+                      height:1.67rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #row-background-2{
+        #row-2{
+          .container-content-67;
+          padding:6vh 0 6vh 0;
+          .row-50_50-primary {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom:3rem;
+            grid-column-gap:3rem;
+            div {
+              a {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0;
+                div {
+                  div {
+                    gap: 1rem;
+                    background-color: @color-text-body;
+                    border: 2px solid @color-text-body;
+                    opacity: 0;
+                    margin: auto;
+                    position: absolute;
+                    transition: 0.3s;
+                    margin-block-end: 0;
+                    border-radius: 2px;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 3px;
+
+                    .project-tile-title {
+                      .font-h3;
+                      color: #fff;
+                      margin:3rem 1rem .33rem 1rem;
+                    }
+
+                    .project-tile-brief {
+                      .font-p;
+                      color:@color-cta-2;
+                      font-weight:400;
+                      color: #FFF500;
+                      margin:0 1rem 0 1rem;
+                    }
+
+                    &:hover {
+                      opacity: 0.93;
+                    }
+                  }
+                  img {
+                    max-width: 100%;
+                    min-width: 100%;
+                    max-height: 100%;
+                    min-height: 100%;
+                    border-radius: 2px;
+                  }
+                  #project-tile-1{
+                    border-radius:2px 0 0 2px;
+                  }
+                  #project-tile-2{
+                    border-radius:0;
+
+                  }
+                  #project-tile-3{
+                    border-radius:0px 2px 2px 0;
+                  }
+                }
+              }
+            }
+          }
+          h2{
+            .font-divider-h2;
+          }
+        }
+      }
+      #row-background-3{
+        #row-3{
+          .container-content-67;
+          padding:6vh 0;
+          h2{
+            .font-divider-h2;
+          }
+        }
+      }
+    }
+  }
+}

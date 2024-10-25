@@ -1,0 +1,82 @@
+@color-text-h: #001459;
+@color-text-h2: #fcfcfc;
+@color-text-p: #000e41;
+@color-text-secondary: #fcfcfc;
+@color-background: #FCFCFC;
+@color-cta-master: #003ACC;
+@color-cta-hover: #0047FF;
+@color-cta-secondary: #6C7583;
+@color-cta-secondary-hover: #565f6d;
+@color-light-grey: #a9a9a9;
+
+
+nav{
+  padding:.33rem 0 .33rem 0;
+  background:#FFF;
+  width:100%;
+  border-bottom:1px solid #c4c4c4;
+  position:fixed;
+  top:0;
+  z-index:1;
+  .nav-content{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    margin:auto;
+    #navigation-left{
+      align-items:center;
+      #logo{
+        height:3.7rem;
+        margin-left:16.5vw;
+      }
+    }
+    #navigation-right{
+      label{
+        margin:auto;
+        text-align:center;
+        display:none;
+      }
+      #toggle{
+        display:none;
+      }
+      #menu{
+        display:inline-flex;
+        margin:0;
+        margin-right:16.5vw;
+        list-style-type:none;
+        line-height:0;
+        li{
+          &:nth-child(1){
+            a{
+              margin-right:1rem;
+            }
+          }
+          &:nth-child(2){
+            a{
+              margin-right:1rem;
+            }
+          }
+          &:nth-child(3){
+            a{
+
+            }
+          }
+          a{
+            color:#3270B3;
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size:16.5px;
+            &:hover{
+              color:@color-cta-hover;
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
