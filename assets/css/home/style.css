@@ -437,6 +437,9 @@ html body main #row-background-4 #row-4 {
 html body main #row-background-4 #row-4 .row-4-row {
   border-bottom: 1px solid #DDDDDD;
 }
+html body main #row-background-4 #row-4 h3 {
+  color: #545E6C;
+}
 html body main #row-background-4 #row-4 h2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
