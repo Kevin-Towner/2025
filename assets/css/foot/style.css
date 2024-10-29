@@ -28,6 +28,10 @@ footer .footer-grid {
 footer .footer-grid div p {
   color: #fff;
   font-size: 16.5px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  cdfont-weight: 400;
+  font-style: normal;
 }
 footer .footer-grid div ul {
   float: right;

@@ -1,10 +1,10 @@
 @media screen and (min-width:1824px) {
 
   nav .nav-content #navigation-left #logo{
-    margin-left:25vw;
+    margin-left:20vw;
   }
   nav .nav-content #navigation-right #menu{
-    margin-right:25vw;
+    margin-right:20vw;
   }
 }
 
@@ -21,16 +21,16 @@
   }
   #logo{
     margin-left:16.7vw;
-    margin-left:5vw;
+    margin-left:10vw;
   }
 
   #toggle{
     display:none;
-    margin-left:5vw;
+    margin-left:10vw;
   }
 
   #menu{
-    margin-right:5vw;
+    margin-right:6vw;
   }
 }
 
@@ -98,9 +98,9 @@
 
 @media screen and (max-width:600px){
   nav > .nav-content > #navigation-right > label{
-    margin-right:10vw;
+    margin-right:6vw;
   }
   nav .nav-content #navigation-left #logo{
-    margin-left:10vw;
+    margin-left:6vw;
   }
 }
