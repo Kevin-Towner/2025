@@ -120,14 +120,13 @@
 .font-caption {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 135%;
   color: #3270B3;
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .jump-spots {
   scroll-margin-top: 100px;
@@ -495,6 +494,15 @@ html body main #row-background-4 #row-4 div p {
   padding-bottom: 1rem;
 }
 html body main #row-background-4 #row-4 div p a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 135%;
+  color: #3270B3;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
   color: #A541FD;
   text-decoration: none;
 }
