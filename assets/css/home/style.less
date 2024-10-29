@@ -94,7 +94,7 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size:22px;
+  font-size:19.5px;
   font-weight: 500;
   color:@color-text-body;
 }
@@ -104,7 +104,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size:19.5px;
+  font-size:18px;
   line-height:135%;
   color:darkgrey;
   margin:0;
@@ -336,21 +336,21 @@ html{
               font-style:italic;
               color:#4F4F4F;
             }
-            ul{
-              margin:0;
-              padding-left:1rem;
-              li{
-                &::before{
-                  content:'\25c7';
-                  padding-right:.33rem;
-                  color:@color-text-body;
-                }
-                text-indent:-16px;
-                list-style-type:none;
-                .font-p;
-                margin-bottom:.33rem;
-                }
-              }
+            // ul{
+            //   margin:0;
+            //   padding-left:1rem;
+            //   li{
+            //     &::before{
+            //       content:'\25c7';
+            //       padding-right:.33rem;
+            //       color:@color-text-body;
+            //     }
+            //     text-indent:-16px;
+            //     list-style-type:none;
+            //     .font-p;
+            //     margin-bottom:.33rem;
+            //     }
+            //   }
             }
             .row-3-row-1{
               display:grid;
@@ -377,6 +377,9 @@ html{
         #row-background-4{
           background-color:@color-background-1;
           #row-4{
+            .row-4-row-1{
+              border-bottom:1px solid #DDDDDD;
+            }
             .container-content-67;
             padding:6vh 0;
             h2{
@@ -388,23 +391,33 @@ html{
             div{
               h4{
                 margin:0;
-                a{
-                  color:@color-cta-1;
-                  text-decoration:none;
+                .job-title{
+                  font-weight:600;
                 }
               }
               h5{
                 color:#545E6C;
                 font-style:italic;
+                margin-bottom:.67rem;
               }
               ul{
+                margin:0;
+                padding-left:1rem;
                 li{
+                  &::before{
+                    content:'\25c7';
+                    padding-right:.33rem;
+                    color:@color-text-body;
+                  }
+                  text-indent:-16px;
+                  list-style-type:none;
                   .font-p;
                   margin-bottom:.33rem;
+                  }
                 }
-              }
               p{
                 text-align:right;
+                padding-bottom:1rem;
                 a{
                   color:@color-cta-1;
                   text-decoration:none;

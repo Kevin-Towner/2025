@@ -68,9 +68,8 @@
 .font-h4 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
   font-style: normal;
-  font-size: 22px;
+  font-size: 19.5px;
   font-weight: 500;
   color: #3270B3;
 }
@@ -79,7 +78,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 19.5px;
+  font-size: 18px;
   line-height: 135%;
   color: darkgrey;
   margin: 0;
@@ -156,9 +155,8 @@ h3 {
 h4 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
   font-style: normal;
-  font-size: 22px;
+  font-size: 19.5px;
   font-weight: 500;
   color: #3270B3;
 }
@@ -167,7 +165,7 @@ h5 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 19.5px;
+  font-size: 18px;
   line-height: 135%;
   color: darkgrey;
   margin: 0;
@@ -408,28 +406,6 @@ html body main #row-background-3 #row-3 div h5 {
   font-style: italic;
   color: #4F4F4F;
 }
-html body main #row-background-3 #row-3 div ul {
-  margin: 0;
-  padding-left: 1rem;
-}
-html body main #row-background-3 #row-3 div ul li {
-  text-indent: -16px;
-  list-style-type: none;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 135%;
-  color: #3270B3;
-  margin: 0;
-  margin-bottom: 0.33rem;
-}
-html body main #row-background-3 #row-3 div ul li::before {
-  content: '\25c7';
-  padding-right: 0.33rem;
-  color: #3270B3;
-}
 html body main #row-background-3 #row-3 .row-3-row-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -459,6 +435,9 @@ html body main #row-background-4 #row-4 {
   margin: auto;
   padding: 6vh 0;
 }
+html body main #row-background-4 #row-4 .row-4-row-1 {
+  border-bottom: 1px solid #DDDDDD;
+}
 html body main #row-background-4 #row-4 h2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -481,15 +460,21 @@ html body main #row-background-4 #row-4 h2 span {
 html body main #row-background-4 #row-4 div h4 {
   margin: 0;
 }
-html body main #row-background-4 #row-4 div h4 a {
-  color: #A541FD;
-  text-decoration: none;
+html body main #row-background-4 #row-4 div h4 .job-title {
+  font-weight: 600;
 }
 html body main #row-background-4 #row-4 div h5 {
   color: #545E6C;
   font-style: italic;
+  margin-bottom: 0.67rem;
+}
+html body main #row-background-4 #row-4 div ul {
+  margin: 0;
+  padding-left: 1rem;
 }
 html body main #row-background-4 #row-4 div ul li {
+  text-indent: -16px;
+  list-style-type: none;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -500,8 +485,14 @@ html body main #row-background-4 #row-4 div ul li {
   margin: 0;
   margin-bottom: 0.33rem;
 }
+html body main #row-background-4 #row-4 div ul li::before {
+  content: '\25c7';
+  padding-right: 0.33rem;
+  color: #3270B3;
+}
 html body main #row-background-4 #row-4 div p {
   text-align: right;
+  padding-bottom: 1rem;
 }
 html body main #row-background-4 #row-4 div p a {
   color: #A541FD;
