@@ -8,22 +8,30 @@
       main{
         #row-background-1{
           #row-1{
-            width:60%;
+            width:50%;
+            width:88%;
+            #row-1-column-grid{
+              #row-1-column-2{
+                img{
+                  max-width:100%;
+                }
+              }
+            }
           }
         }
         #row-background-2{
           #row-2{
-            width:60%;
+            width:50%;
           }
         }
         #row-background-3{
           #row-3{
-            width:60%;
+            width:50%;
           }
         }
         #row-background-4{
           #row-4{
-            width:60%;
+            width:50%;
           }
         }
       }
@@ -69,6 +77,9 @@
 }
 
 @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  p{
+    font-size:16px;
+  }
   html{
     body{
       main{
@@ -76,17 +87,26 @@
           #row-1{
             width:88%;
             h1{
-              font-size:54px;
+              font-size:42px;
             }
             #row-1-column-grid{
               display:flex;
               flex-direction:column-reverse;
               gap:2rem;
+              #row-1-column-1{
+                ul{
+                  li{
+                    a{
+                      font-size:22px;
+                    }
+                  }
+                }
+              }
               #row-1-column-2{
                 img{
                   border-radius:2px;
                   float:left !important;
-                  max-width:67%;
+                  max-width:100%;
                 }
               }
             }
@@ -95,26 +115,71 @@
         #row-background-2{
           #row-2{
             width:88%;
+            h2{
+              span{
+                font-size:28px
+              }
+            }
             .row-50_50-primary{
               display:flex;
               flex-direction:column;
               gap:2rem;
+              div{
+                a{
+                  div{
+                    div{
+                      .project-tile-title{
+                        font-size:22px;
+                      }
+                      .project-tile-brief{
+                        font-size:16.5px;
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         }
         #row-background-3{
           #row-3{
             width:88%;
+            h2{
+              span{
+                font-size:28px
+              }
+            }
             .row-3-row-1{
               display:flex;
               flex-direction:column-reverse;
               gap:2rem;
+            }
+            div{
+              h3{
+                font-size:22px;
+              }
             }
           }
         }
         #row-background-4{
           #row-4{
             width:88%;
+            h2{
+              span{
+                font-size:28px
+              }
+            }
+            h3{
+              font-size:22px;
+            }
+            div{
+              h4{
+                font-size:18px;
+              }
+              h5{
+                font-size:16.5px;
+              }
+            }
           }
         }
       }

@@ -255,8 +255,8 @@ html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li
   color: #A541FD;
 }
 html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-2 img {
-  max-width: 70%;
-  min-width: 70%;
+  max-width: 80%;
+  min-width: 80%;
   float: right;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
