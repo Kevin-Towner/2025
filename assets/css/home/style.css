@@ -223,9 +223,10 @@ html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul {
 }
 html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li {
   list-style-type: none;
+  margin-bottom: 1rem;
 }
-html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li:nth-child(1) {
-  margin-bottom: 0.66rem;
+html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li:nth-child(3) {
+  margin-bottom: 0px;
 }
 html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li span {
   font-family: "Raleway", sans-serif;
