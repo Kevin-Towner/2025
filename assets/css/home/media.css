@@ -102,4 +102,7 @@
   html body main #row-background-4 #row-4 div h5 {
     font-size: 16.5px;
   }
+  html body main #row-background-4 #row-4 div ul li{
+    font-size:16px;
+  }
 }
