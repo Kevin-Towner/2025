@@ -56,8 +56,10 @@
   }
   html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 #display-on-mobile{
     display:inline-block;
+  }
+  html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 #display-on-mobile{
     border-radius: 2px;
-    max-width: 100%;
+    max-width:100%;
   }
   html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-2{
     display:none;
