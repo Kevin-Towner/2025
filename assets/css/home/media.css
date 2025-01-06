@@ -53,10 +53,16 @@
     display: flex;
   }
   html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.67rem;
   }
   html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul {
     margin: 0;
+  }
+  html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li {
+    margin-bottom: 0.67rem;
+  }
+  html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li span {
+    margin-right: 0.33rem;
   }
   html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li a {
     font-size: 22px;

@@ -26,7 +26,7 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 64px;
+  font-size: 58px;
   margin-bottom: 0.33em;
   letter-spacing: -0.5px;
   color: #3270B3;
@@ -36,7 +36,7 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 42px;
+  font-size: 36px;
   color: #3270B3;
 }
 .font-divider-h2 {
@@ -62,14 +62,14 @@
   margin: 0 0 0.33rem 0;
   line-height: 150%;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22.5px;
   color: #3270B3;
 }
 .font-h4 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 19.5px;
+  font-size: 20px;
   font-weight: 500;
   color: #3270B3;
 }
@@ -136,7 +136,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 64px;
+  font-size: 58px;
   margin-bottom: 0.33em;
   letter-spacing: -0.5px;
   color: #3270B3;
@@ -148,14 +148,14 @@ h3 {
   margin: 0 0 0.33rem 0;
   line-height: 150%;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22.5px;
   color: #3270B3;
 }
 h4 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 19.5px;
+  font-size: 20px;
   font-weight: 500;
   color: #3270B3;
 }
@@ -233,7 +233,7 @@ html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 42px;
+  font-size: 36px;
   color: #3270B3;
   font-size: 22px;
   margin-right: 0.66rem;
@@ -244,7 +244,7 @@ html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 42px;
+  font-size: 36px;
   color: #3270B3;
   font-size: 24px;
   font-weight: 700;
@@ -332,7 +332,7 @@ html body main #row-background-2 #row-2 .row-50_50-primary div a div div .projec
   margin: 0 0 0.33rem 0;
   line-height: 150%;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22.5px;
   color: #3270B3;
   color: #fff;
   margin: 3rem 1rem 0.33rem 1rem;
@@ -450,9 +450,6 @@ html body main #row-background-4 #row-4 {
 html body main #row-background-4 #row-4 .row-4-row {
   border-bottom: 1px solid #DDDDDD;
 }
-html body main #row-background-4 #row-4 h3 {
-  color: #545E6C;
-}
 html body main #row-background-4 #row-4 h2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -473,6 +470,7 @@ html body main #row-background-4 #row-4 h2 span {
   background: #fafafa;
 }
 html body main #row-background-4 #row-4 div h4 {
+  color: #545E6C;
   margin: 0;
 }
 html body main #row-background-4 #row-4 div h4 .job-title {
