@@ -41,15 +41,28 @@
     width: 88%;
   }
   html body main #row-background-1 #row-1 h1 {
-    font-size: 42px;
+    font-size: 38px;
+    margin-bottom: 1rem;
   }
   html body main #row-background-1 #row-1 #row-1-column-grid {
     display: flex;
     flex-direction: column-reverse;
     gap: 2rem;
   }
+  html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 #row-1-column-1-bio img {
+    display: flex;
+  }
+  html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 p {
+    margin-bottom: 1rem;
+  }
+  html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul {
+    margin: 0;
+  }
   html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li a {
-    gfont-size: 22px;
+    font-size: 22px;
+  }
+  html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-2 {
+    display: none;
   }
   html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-2 img {
     border-radius: 2px;
