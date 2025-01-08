@@ -419,9 +419,7 @@ html body main #row-background-3 #row-3 div h5 {
   color: #4F4F4F;
 }
 html body main #row-background-3 #row-3 .row-3-row-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 3em;
+  display: flex;
 }
 html body main #row-background-3 #row-3 .row-3-row-1 div img {
   max-width: 100%;
