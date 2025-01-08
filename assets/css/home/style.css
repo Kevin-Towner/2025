@@ -80,7 +80,7 @@
   font-style: normal;
   font-size: 18px;
   line-height: 135%;
-  color: darkgrey;
+  color: #545E6C;
   margin: 0;
 }
 .font-p {
@@ -166,7 +166,7 @@ h5 {
   font-style: normal;
   font-size: 18px;
   line-height: 135%;
-  color: darkgrey;
+  color: #545E6C;
   margin: 0;
 }
 p {
@@ -268,8 +268,8 @@ html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 #row-
   border-radius: 50%;
 }
 html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-2 img {
-  max-width: 80%;
-  min-width: 80%;
+  max-width: 90%;
+  min-width: 90%;
   float: right;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -470,14 +470,12 @@ html body main #row-background-4 #row-4 h2 span {
   background: #fafafa;
 }
 html body main #row-background-4 #row-4 div h4 {
-  color: #545E6C;
   margin: 0;
 }
 html body main #row-background-4 #row-4 div h4 .job-title {
   font-weight: 600;
 }
 html body main #row-background-4 #row-4 div h5 {
-  color: #545E6C;
   font-style: italic;
   margin-bottom: 0.67rem;
 }
@@ -501,7 +499,6 @@ html body main #row-background-4 #row-4 div ul li {
 html body main #row-background-4 #row-4 div ul li::before {
   content: '\25c7';
   padding-right: 0.33rem;
-  color: #545E6C;
 }
 html body main #row-background-4 #row-4 div p {
   text-align: right;
