@@ -42,7 +42,7 @@
 .font-divider-h2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   color: #3270B3;
   border-bottom: 1px solid;
@@ -246,7 +246,7 @@ html body main #row-background-1 #row-1 #row-1-column-grid #row-1-column-1 ul li
   font-style: normal;
   font-size: 36px;
   color: #3270B3;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   transition: 0.33s;
   letter-spacing: 0.66px;
@@ -362,7 +362,7 @@ html body main #row-background-2 #row-2 .row-50_50-primary div a div img {
 html body main #row-background-2 #row-2 h2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   color: #3270B3;
   border-bottom: 1px solid;
@@ -391,7 +391,7 @@ html body main #row-background-3 #row-3 {
 html body main #row-background-3 #row-3 h2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   color: #3270B3;
   border-bottom: 1px solid;
@@ -451,7 +451,7 @@ html body main #row-background-4 #row-4 .row-4-row {
 html body main #row-background-4 #row-4 h2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   color: #3270B3;
   border-bottom: 1px solid;
