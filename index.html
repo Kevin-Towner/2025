@@ -20,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/home/media.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav/media.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/aside/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/aside/media.css">
     <link rel="stylesheet" type="text/css" href="assets/css/foot/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/foot/media.css">
     <!-- Javascript -->
@@ -43,163 +45,170 @@
 </script>
 </head>
 <body>
-  <nav>
-    <div class="nav-content">
-      <div class="navigation-section" id="navigation-left">
-          <a style="margin-bottom:0;" href= "index.html"><img id="logo" src="assets/images/branding/logos/gundam.svg" alt="mobile suit gundam themed logo"></a>
-      </div>
-      <div class="navigation-section" id="navigation-right">
-          <label for="toggle">☰</label>
-          <input type="checkbox" id="toggle">
-          <ul id="menu">
-            <li><a id="anchor-projects" href="#projects-jump">Projects</a></li>
-            <li><a id="anchor-resume" href="#professional-jump">Professional</a></li>
-            <li><a id="anchor-resume" href="#experience-jump">Experience</a></li>
-          </ul>
-      </div>
+  <aside>
+    <div class="nav-row;" id="nav-row-1">
+      <a href=""></a>
+      <img src="assets/images/branding/logos/gundam-image.png" alt="gundam logo">
+      <ul>
+        <li id="navigation-name">Kevin Towner</li>
+        <li id="navigation-role">Product Designer</li>
+      </ul>
     </div>
-  </nav>
+    <hr style="width:70%; border:1px solid; color:#d8d8d8;">
+    <div class="nav-row" id="nav-row-2">
+      <ul>
+        <li>
+          <a id=anchor-skills href="#skills-jump">
+            <span id="nav-item-1" class="nav-item">
+              <!-- <img src="assets/images/branding/icons/linkedin-white.svg" alt="LinkedIn Icon"> -->
+              <p>Skills</p>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a id="anchor-projects" href="#projects-jump">
+            <span id="nav-item-2" class="nav-item">
+              <!-- <img src="assets/images/branding/icons/linkedin-white.svg" alt="LinkedIn Icon"> -->
+              <p>Projects</p>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a id="anchor-resume" target="_blank" href="assets/images/misc/resume-kevin_towner.pdf">
+            <span id="nav-item-3" class="nav-item">
+              <!-- <img src="assets/images/branding/icons/linkedin-white.svg" alt="LinkedIn Icon"> -->
+              <p>Resume</p>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a id="anchor-contact" target="_blank" href="https://www.linkedin.com/in/kevin-t-b0960b96/">
+            <span id="nav-item-4" class="nav-item">
+              <!-- <img src="assets/images/branding/icons/linkedin-white.svg" alt="LinkedIn Icon"> -->
+              <p>Contact</p>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
   <main>
-    <div class="row-background" id="row-background-1">
-      <div class="row" id="row-1">
-      <h1>Hello &amp; Welcome</h1>
-        <div id="row-1-column-grid">
-          <div class="row-1-column" id="row-1-column-1">
-            <div id="row-1-column-1-bio">
-              <img src="assets/images/misc/me/me-2.png" alt="smaller image of me to activate on mobile devices.">
-              <p>Emerging product designer excited to transform ideas into digital experiences. Based out of the NYC area as a web designer and content manager at <a target="_blank" href="https://www.travelguard.com/">Travel Guard</a>.</p>
+    <nav>
+      <div class="nav-content">
+        <div class="navigation-section" id="navigation-left">
+            <a style="margin-bottom:0;" href= "index.html"><img id="logo" src="assets/images/branding/logos/gundam-image.png" alt="gundam logo"></a>
+        </div>
+        <div class="navigation-section" id="navigation-right">
+            <label for="toggle">☰</label>
+            <input type="checkbox" id="toggle">
+            <ul id="menu">
+              <li><a id="anchor-about" href="#about-jump">Skills</a></li>
+              <li><a id="anchor-resume" href="#professional-jump">Projects</a></li>
+              <li><a id="anchor-contact" href="#contact-jump">Resume</a></li>
+              <li><a id="anchor-contact" href="#contact-jump">Contacts</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-content">
+      <a class="jump-spots" id="top-jump"></a> <!--anchor page jump location-->
+      <div class="content-row-1">
+        <div>
+          <h1>My Digital Business Card</h1>
+          <p class="intro">Emerging product designer enthusiastic about transforming ideas into digital experiences. I'm Based out of the NYC/NJ area as a web designer and content manager, at Zurich Cover-More, with an educational background in HCI from Drexel University CCI. </p>
+        </div>
+      </div>
+      <div class="content-row-2">
+      <a class="jump-spots" id="skills-jump"></a> <!--anchor page jump location-->
+      <h2><span>Skills</span></h2>
+        <div id="content-row-2-container-1">
+          <div class="container-33_33_33">
+            <div>
+              <h3>General</h3>
+              <ul>
+                <li><span style="margin-right:.2rem; color:#12cc12;">●</span>UI Design</li>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Content Management</li>
+                <li><span style="margin-right:.2rem; color:#ff2fdf;">●</span>Digital Marketing</li>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Optimization Execution</li>
+                <li><span style="margin-right:.2rem; color:#12cc12;">●</span>A/B Testing</li>
+                <li><span style="margin-right:.2rem; color:#12cc12;">●</span>Multivariate Testing</li>
+              </ul>
             </div>
-            <!-- <div id="display-on-mobile">
-              <img src="assets/images/misc/me/me-1.png" alt="picture of me in Seoul, SK">
-            </div> -->
+            <div>
+              <h3>Design &amp; Development</h3>
+              <ul>
+                <li><span style="margin-right:.2rem; color:#12cc12;">●</span>Figma</li>
+                <li><span style="margin-right:.2rem; color:#12cc12;">●</span>HTML</li>
+                <li><span style="margin-right:.2rem; color:#12cc12;">●</span>CSS</li>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Adobe XD</li>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Postman</li>
+                <li><span style="margin-right:.2rem; color:#ff2fdf;">●</span>Framer</li>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Schema.org</li>
+                <li><span style="margin-right:.2rem; color:#ff2fdf;">●</span>JSON (some)</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Collaboration &amp; CMS</h3>
+              <ul>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Adobe Experience Manager (AEM)</li>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Adobe Target</li>
+                <li><span style="margin-right:.2rem; color:#4b76e6;">●</span>Monday.com</li>
+                <li><span style="margin-right:.2rem; color:#ff2fdf;">●</span>TFS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row-content-2-key">
             <ul>
-              <li>
-                <span>◇</span><a href="#projects-jump">Side Projects</a>
-              </li>
-              <li>
-                <span>◇</span><a href="#professional-jump">Professional</a>
-              </li>
-              <li>
-                <span>◇</span><a href="#experience-jump">Experience</a>
-              </li>
+              <li id="li-proficient">Proficient</li>
+              <li id="li-intermediate">Intermediate</li>
+              <li id="li-beginner">Beginner</li>
             </ul>
           </div>
-          <div class="row-1-column" id="row-1-column-2">
-            <img src="assets/images/misc/me/me-2.png" alt="picture of me in Seoul, SK">
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="row-background" id="row-background-2">
-      <div class="row" id="row-2">
-        <a class="jump-spots" id="projects-jump"></a>  <!--anchor page jump location-->
-        <h2><span>Side Projects</span></h2>
-        <div class="row-50_50-primary">
-          <div class="project-tile">
-            <a href="public/projects/thankslink.html">
-              <div>
-                <div>
-                  <h3 class="project-tile-title">ThanksLink Insurance Panel</h3>
-                  <p class="project-tile-brief">ThanksLink is a travel reservation platform that offers insurance products.</p>
-                </div>
-                <img id="project-tile-1" src="assets/images/projects/thankslink/cover.png" alt="ThanksLink Tile">
-              </div>
-            </a>
-            <div>
-              <p class="font-caption">ThanksLink Insurance Panel</p>
-            </div>
-          </div>
-          <div class="project-tile">
-            <a target="_blank" href="#">
-              <div>
-                <div>
-                  <p class="project-tile-title">Anime Music Streaming</p>
-                  <p class="project-tile-brief">High fidelity wireframes for an anime music streaming service.</p>
-                </div>
-                <img id="project-tile-2" src="assets/images/projects/animotify/cover.png" alt="Anime Streaming UI screens">
-              </div>
-            </a>
-            <div>
-              <p class="font-caption">Anime Music Streaming</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row-background" id="row-background-3">
-      <div class="row" id="row-3">
-        <a class="jump-spots" id="professional-jump"></a>  <!--anchor page jump location-->
-        <h2><span>Professional</span></h2>
-        <!-- <h3>Process</h3> -->
-        <div class="row-3-row-1">
-          <!-- <div>
-            <h3>Function</h3>
-            <p>I'm a web design and digital optimization professional. My current team and I leverage quantitative data to make informed decisions, and increase conversion on our travel insurance products.</p>
-            <br>
-            <h3>Optimization</h3>
-            <p>With A/B and multivariate testing we look for opportunities to improve our content and drive sales across several channels.</p>
-          </div> -->
+        <div id="content-row-2-container-2">
+          <h3>Professional</h3>
           <div>
-            <a target="_blank" href="assets/images/professional/testandlearn.png"><img src="assets/images/professional/testandlearn.png" alt="current optimization process"></a>
-            <p class="font-caption">Optimization process as a web designer</p>
+            <img src="assets/images/professional/testandlearn.png" alt="professional process">
           </div>
         </div>
       </div>
-    </div>
-    <div class="row-background" id="row-background-4">
-      <div class="row" id="row-4">
-        <a href="jump-spots" id="experience-jump"></a> <!--anchor page jump location-->
-        <h2><span>Experience</span></h2>
-        <h3>Professional</h3>
-        <div class="row-4-row" id="row-4-row-1">
-          <h4><span class="job-title">Web Designer</span> • <span class="job-company">Travel Guard</span></h4>
-          <h5>Oct, 2022 - Present</h5>
-          <ul>
-            <li>Design and author travel insurance content for high priority partners.</li>
-            <li>Built and managed several optimization tests from 2023 to present for United and Spirit.</li>
-            <li>Oversee HTML and CSS builds for Spirit and Lufthansa panel content.</li>
-            <li>Manage segmentation and traffic balancing with digital marketing and data science.</li>
-          </ul>
-          <!-- <br>
-          <h4><span class="job-title">Account Analyst</span> • <span class="job-company">AIG, Op Services</span></h4>
-          <h5>2019 - 2022</h5>
-          <ul>
-            <li>Managed policy endorsements, quote requests, and cancellations.</li>
-          </ul> -->
-          <p><a target="_blank" href="assets/images/misc/resume.pdf">View resume</a></p>
-        </div>
-        <br>
-        <!-- <h3>Volunteer</h3>
-        <div class="row-4-row" id="row-4-row-2">
-          <h4><span class="job-title">Usability Analyst</span> • <span class="job-company">Historic Wyoming</span></h4>
-          <h5>January, 2022 - February, 2022</h5>
-          <ul>
-            <li>Volunteer opportunity where I helped the organization by conducting usability audits and heuristic evaluations on their website</li>
-          </ul>
-          <p><a target="_blank" href="assets/images/misc/resume.pdf">View resume</a></p>
-        </div>
-        <br> -->
-        <h3>Education</h3>
-        <div class="row-4-row" id="row-4-row-3">
-          <h4><span class="job-title">MSI in Human-Computer Interaction</span> • <span class="job-company">Drexel University CCI</span></h4>
-          <!-- <h5>2023</h5> -->
-          <p><a target="_blank" href="assets/images/misc/resume.pdf">View resume</a></p>
+      <div class="content-row-4">
+      <a class="jump-spots" id="projects-jump"></a> <!--anchor page jump location-->
+      <h2><span>Side Projects</span></h2>
+        <div id="content-row-4-container-full">
+          <div class="container-50_50">
+            <div class="project-tile">
+              <a href="public/projects/thankslink.html">
+                <div>
+                  <div>
+                    <p class="project-tile-title">ThanksLink Insurance Panel</p>
+                    <p class="project-tile-brief">ThanksLink is a travel reservation platform that offers insurance products.</p>
+                  </div>
+                  <img id="project-tile-1" src="assets/images/projects/thankslink/cover.png" alt="ThanksLink Tile">
+                </div>
+              </a>
+              <div>
+                <p class="font-caption">ThanksLink Insurance Panel</p>
+              </div>
+            </div>
+            <div class="project-tile">
+              <a target="_blank" href="#">
+                <div>
+                  <div>
+                    <p class="project-tile-title">Anime Music Streaming</p>
+                    <p class="project-tile-brief">High fidelity wireframes for an anime music streaming service.</p>
+                  </div>
+                  <img id="project-tile-2" src="assets/images/projects/animotify/cover.png" alt="Animotify UI screens">
+                </div>
+              </a>
+              <div>
+                <p class="font-caption">Anime Music Streaming</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </main>
-  <footer>
-    <div class="footer-grid">
-      <div>
-        <p>© Kevin Towner 2025</p>
-      </div>
-      <div>
-        <ul>
-          <li><a target="blank_" href="https://www.linkedin.com/in/kevin-t-b0960b96/"><img src="assets/images/branding/icons/linkedin-white.svg" alt="external icon link to my linkedin page"></a></li>
-          <li><a target="_blank" href="mailto:kevintowner@gmail.com "><img src="assets/images/branding/icons/gmail-white.svg" alt="external icon link to send me email"></a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>

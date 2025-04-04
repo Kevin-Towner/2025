@@ -1,6 +1,7 @@
 nav {
-  padding: 0.33rem 0 0.33rem 0;
-  background: #FFF;
+  display: none;
+  padding: 0.33em 0 0.33rem 0;
+  background-color: #FFF;
   width: 100%;
   border-bottom: 1px solid #c4c4c4;
   position: fixed;
@@ -19,7 +20,7 @@ nav .nav-content #navigation-left {
 }
 nav .nav-content #navigation-left #logo {
   height: 3.7rem;
-  margin-left: 16.5vw;
+  margin-left: 2rem;
 }
 nav .nav-content #navigation-right label {
   margin: auto;
@@ -32,7 +33,7 @@ nav .nav-content #navigation-right #toggle {
 nav .nav-content #navigation-right #menu {
   display: inline-flex;
   margin: 0;
-  margin-right: 16.5vw;
+  margin-right: 30rem;
   list-style-type: none;
   line-height: 0;
 }
@@ -42,16 +43,18 @@ nav .nav-content #navigation-right #menu li:nth-child(1) a {
 nav .nav-content #navigation-right #menu li:nth-child(2) a {
   margin-right: 1rem;
 }
+nav .nav-content #navigation-right #menu li:nth-child(3) a {
+  margin-right: 1rem;
+}
 nav .nav-content #navigation-right #menu li a {
-  color: #3270B3;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.5px;
+  color: #003ACC;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15.5px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
 }
 nav .nav-content #navigation-right #menu li a:hover {
-  color: #8C14F4;
+  color: #0047FF;
   transition: 0.3s;
 }
