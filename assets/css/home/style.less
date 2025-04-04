@@ -207,7 +207,7 @@ main{
         .container-50_50{
           display:grid;
           grid-template-columns: 1fr 1fr;
-          grid-gap:2em;
+          grid-gap:1em;
           .project-tile{
             a {
               position: relative;
@@ -215,11 +215,12 @@ main{
               vertical-align: middle;
               margin: 0;
               div {
+                border-radius:6px;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
                 div {
-                  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
                   gap: 1rem;
-                  background-color: #000;
-                  border: 2px solid #000;
+                  background-color: #edeff3;
+                  border: 2px solid #4B76E6;
                   opacity: 0;
                   margin: auto;
                   position: absolute;
@@ -232,17 +233,17 @@ main{
                   bottom: 3px;
                   .project-tile-title {
                     .font-h3;
-                    color: #fff;
+                    color: #545454;
                     margin:3rem 1rem .33rem 1rem;
                   }
                   .project-tile-brief {
                     font-weight:300;
-                    color: #FFF500;
+                    color: #545454;
                     margin:0 1rem 0 1rem;
                   }
 
                   &:hover {
-                    opacity: 0.90;
+                    opacity: 0.95;
                   }
                 }
                 img {
