@@ -1,3 +1,12 @@
+.font-p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+}
 .container-body-100 {
   margin: 0 auto;
   background: #fafafa;
@@ -11,38 +20,17 @@
   margin: auto;
 }
 footer {
-  background: #3270B3;
-  color: #fff;
-  padding: 0.33rem 0;
-  bottom: 0;
-  width: 100%;
+  text-align: right;
+  margin-top: 5rem;
 }
-footer .footer-grid {
-  display: flex;
-  flex-direction: column;
-  width: 67%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-footer .footer-grid div p {
-  color: #fff;
-  font-size: 16.5px;
-  font-family: "Montserrat", sans-serif;
+footer p {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  cdfont-weight: 400;
+  font-weight: 400;
   font-style: normal;
-}
-footer .footer-grid div ul {
-  float: right;
-  margin: 0;
-}
-footer .footer-grid div ul li {
-  display: inline-flex;
-}
-footer .footer-grid div ul li:nth-child(1) {
-  margin-right: 0.67rem;
-}
-footer .footer-grid div ul li a img {
-  width: 1.33rem;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+  font-size: 14.5px;
+  color: grey;
 }
