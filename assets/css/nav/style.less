@@ -10,9 +10,19 @@
 @color-light-grey: #a9a9a9;
 
 
+.font-p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size:16px;
+  color:#565656;
+}
+
 nav{
   display:none;
-  padding:.33em 0 .33rxem 0;
+  padding:.5rem 0;
   background-color:#FFF;
   width:100%;
   border-bottom:1px solid #c4c4c4;
@@ -28,7 +38,7 @@ nav{
     #navigation-left{
       align-items:center;
       #logo{
-        height:3.7rem;
+        height:3.2rem;
         margin-left:2rem;
       }
     }
@@ -44,23 +54,23 @@ nav{
       #menu{
         display:inline-flex;
         margin:0;
-        margin-right:30rem;
+        margin-right:20px;
         list-style-type:none;
         line-height:0;
         li{
           &:nth-child(1){
             a{
-              margin-right:1rem;
+              margin-right:.7rem;
             }
           }
           &:nth-child(2){
             a{
-              margin-right:1rem;
+              margin-right:.7rem;
             }
           }
           &:nth-child(3){
             a{
-              margin-right:1rem;
+              margin-right:.7rem;
             }
           }
           a{
@@ -70,6 +80,7 @@ nav{
             font-size:15.5px;
             font-weight:300;
             letter-spacing: .3px;
+            .font-p;
             &:hover{
               color:@color-cta-hover;
               transition: 0.3s;

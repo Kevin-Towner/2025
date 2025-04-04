@@ -11,6 +11,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  main .main-content{
+    margin-top:7.5rem;
+  }
   main .main-content .content-row-2 #content-row-2-container-1 .container-33_33_33{
     display:flex;
     flex-direction: column;
