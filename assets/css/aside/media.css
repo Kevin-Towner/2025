@@ -1,11 +1,4 @@
 @media screen and (min-width:1824px) {
-
-  nav .nav-content #navigation-left #logo{
-    margin-left:25vw;
-  }
-  nav .nav-content #navigation-right #menu{
-    margin-right:25vw;
-  }
 }
 
 @media screen and (max-width:1281px) { /* big landscape tablets, laptops, and desktops */
@@ -13,94 +6,10 @@
 }
 
 @media screen and (max-width:1025px) {
-
-  label{
-    margin:auto;
-    text-align:center;
-    display:none;
-  }
-  #logo{
-    margin-left:16.7vw;
-    margin-left:10vw;
-  }
-
-  #toggle{
-    display:none;
-    margin-left:10vw;
-  }
-
-  #menu{
-    margin-right:6vw;
-  }
 }
 
 @media screen and (max-width:880px)  {
-  nav{
-    width:100%;
-    position:fixed;
-    z-index:1;
-    background-color:#fff;
-    margin:0;
-    padding:5px 0 6px 0;
-    background-color:
-  }
-
-  nav > .nav-content > #navigation-right > label{
-    display:block;
-    cursor:pointer;
-    font-size:32px;
-    color:#8e8e8e;
-    float:right;
-    margin-right:16.5vw;
-  }
-  nav .nav-content #navigation-right label:hover{
-    color:#1B58F5;
-  }
-
-  nav .nav-content #navigation-right #toggle{
-    display: none;
-    height:32px;
-    margin-right:10vw !important;
-  }
-
-  nav .nav-content #navigation-right #menu{
+  aside{
     display:none;
-    height:24px;
-    margin-right:10vw;
-  }
-
-  nav .nav-content #navigation-right #toggle:checked + #menu{
-    display:block;
-    z-index:1;
-    position:absolute;
-    height:500vh;
-    margin-top:3.5em;
-    background-color:#fff;
-    text-align:center;
-    width:100%;
-    left:0;
-    top:1em;
-  }
-
-  nav .nav-content #navigation-right #menu li a{
-    font-size: 16pt;
-    color: #565f6d;
-    display:block;
-    padding:4em 0 4em 0;
-    text-align: center;
-    margin-right:0 !important;
-  }
-
-  nav .nav-content #navigation-left #logo{
-    margin-left:16.5vw;
-  }
-}
-
-@media screen and (max-width:600px){
-  nav > .nav-content > #navigation-right > label{
-    margin-right:6vw;
-  }
-  nav .nav-content #navigation-left #logo{
-    margin-left:6vw;
   }
 }
