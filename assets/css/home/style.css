@@ -225,6 +225,7 @@ main .main-content .content-row-2 #content-row-2-container-2 div img {
   max-width: 100%;
   min-width: 100%;
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 main .main-content .content-row-4 {
   margin-top: 2rem;
