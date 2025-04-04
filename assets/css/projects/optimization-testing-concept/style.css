@@ -1,0 +1,264 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.font-h1 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+  margin-bottom: 0.33em;
+  letter-spacing: -0.5px;
+  color: #565656;
+}
+.font-divider-h2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #565656;
+  border-bottom: 1px solid #424242;
+  line-height: 0.1em;
+  margin: 0 0 1.33em 0;
+}
+.font-divider-h2 span {
+  background: #F4F4F4;
+  padding: 0 1rem 0 0;
+  font-size: 28px;
+}
+.font-h3 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+  color: #545454;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5rem;
+}
+.font-p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+  margin-bottom: 1rem;
+}
+.font-caption {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-size: 14.5px;
+}
+.jump-spots {
+  scroll-margin-top: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #F4F4F4;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-gap: 4em;
+  align-items: start;
+  width: 90%;
+  margin: 0 auto;
+}
+body main {
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-top: 3rem;
+}
+body main p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+  margin-bottom: 1rem;
+}
+body main h1 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+  margin-bottom: 0.33em;
+  letter-spacing: -0.5px;
+  color: #565656;
+}
+body main h2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #565656;
+  border-bottom: 1px solid #424242;
+  line-height: 0.1em;
+  margin: 0 0 1.33em 0;
+}
+body main h2 span {
+  background: #F4F4F4;
+  padding: 0 1rem 0 0;
+  font-size: 28px;
+}
+body main h3 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+  color: #545454;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5rem;
+}
+body main .content-row-1 {
+  margin-top: 2rem;
+}
+body main .content-row-2 {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+body main .content-row-2 #content-row-2-container-1 {
+  color: #565656;
+  background: #FEFEFE;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: column;
+}
+body main .content-row-2 #content-row-2-container-1 ul li {
+  margin-bottom: 0.3rem;
+}
+body main .content-row-2 #content-row-2-container-1 ul li a {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: blue;
+}
+body main .content-row-2 #content-row-2-container-1 ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+body main .content-row-2 #content-row-2-container-1 ul li a:before {
+  content: "●";
+  margin-right: 0.3rem;
+}
+body main .content-row-3 {
+  margin-bottom: 3rem;
+}
+body main .content-row-3 #content-row-3-container-1 {
+  color: #565656;
+  background: #FEFEFE;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+body main .content-row-3 #content-row-3-container-1 .container-50_50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+body main .content-row-3 #content-row-3-container-1 .container-50_50 div ul li {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+body main .content-row-3 #content-row-3-container-1 .container-50_50 div ul li:before {
+  content: "•";
+  margin-right: 0.3rem;
+}
+body main .content-row-3 #content-row-3-container-1 .container-50_50 div img {
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+body main .content-row-4 {
+  margin-bottom: 3rem;
+}
+body main .content-row-4 #content-row-4-container-1 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+body main .content-row-4 #content-row-4-container-1 a img {
+  border-radius: 6px;
+  max-width: 100%;
+}
+body main .content-row-5 {
+  margin-bottom: 3rem;
+}
+body main .content-row-5 #content-row-5-container-1 {
+  color: #565656;
+  background: #FEFEFE;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+body main .content-row-5 #content-row-5-container-1 a {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  font-size: 16px;
+  color: #565656;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: blue;
+}
+body main .content-row-5 #content-row-5-container-1 a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+body main .content-row-6 {
+  margin-bottom: 3rem;
+}
+body main .content-row-6 #content-row-6-container-1 {
+  color: #565656;
+  background: #FEFEFE;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+body main .content-row-6 #content-row-6-container-1 .container-50_50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+body main .content-row-6 #content-row-6-container-1 .container-50_50 div a img {
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
