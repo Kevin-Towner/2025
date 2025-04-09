@@ -18,4 +18,7 @@
     display:block;
     left:0;
   }
+  nav .nav-content #navigation-right #menu li a{
+    font-size:14.5px;
+  }
 }
