@@ -81,7 +81,7 @@ body {
   background: #F4F4F4;
   display: grid;
   grid-template-columns: 15rem 1fr;
-  grid-gap: 4em;
+  grid-gap: 2em;
   align-items: start;
   width: 90%;
   margin: 0 auto;
