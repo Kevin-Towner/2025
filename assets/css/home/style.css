@@ -173,7 +173,6 @@ main .main-content .content-row-2 #content-row-2-container-1 {
 main .main-content .content-row-2 #content-row-2-container-1 .container-33_33_33 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
