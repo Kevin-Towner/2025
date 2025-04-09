@@ -11,7 +11,10 @@
 }
 
 @media screen and (max-width:880px)  {
-
+  nav{
+    display:block;
+    left:0;
+  }
 
 @media screen and (max-width:600px){
   nav{

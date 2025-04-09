@@ -31,7 +31,10 @@
 
 @media screen and (max-width:880px)  {
   body{
-    grid-template-columns: 14rem 1fr;
+    grid-template-columns: 1fr;
+  }
+  aside{
+    display:none;
   }
 }
 @media screen and (max-width: 600px){
