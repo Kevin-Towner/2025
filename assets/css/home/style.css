@@ -155,11 +155,14 @@ main .main-content ul li {
   font-size: 16px;
   color: #565656;
 }
+main .main-content .content-row-1 {
+  margin-bottom: 3rem;
+}
 main .main-content .content-row-1 div .intro {
   color: #565656;
 }
 main .main-content .content-row-2 {
-  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 main .main-content .content-row-2 #content-row-2-container-1 {
   color: #565656;
@@ -277,7 +280,7 @@ main .main-content .content-row-2 #content-row-2-container-3 .container-100 img 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 main .main-content .content-row-4 {
-  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 main .main-content .content-row-4 #content-row-4-container-full .container-50_50 {
   display: grid;
