@@ -175,8 +175,7 @@ main .main-content .content-row-2 #content-row-2-container-1 .container-33_33_33
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.5em;
   margin-bottom: 1rem;
-  max-width: 90%;
-  margin: auto;
+  margin-left: 1rem;
 }
 main .main-content .content-row-2 #content-row-2-container-1 .container-33_33_33 div img {
   max-width: 70%;
