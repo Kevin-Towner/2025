@@ -237,6 +237,7 @@ main .main-content .content-row-2 #content-row-2-container-2 .container-50_50 di
 }
 main .main-content .content-row-2 #content-row-2-container-2 .container-50_50 div img {
   max-width: 100%;
+  border-radius: 6px;
 }
 main .main-content .content-row-2 #content-row-2-container-3 {
   color: #565656;
