@@ -37,10 +37,9 @@
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  margin-bottom: 0.5em;
   color: #545454;
-  letter-spacing: -0.5px;
   margin-bottom: 0.5rem;
+  line-height: 160%;
 }
 .font-p {
   font-family: "Raleway", sans-serif;
@@ -126,10 +125,9 @@ body main h3 {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  margin-bottom: 0.5em;
   color: #545454;
-  letter-spacing: -0.5px;
   margin-bottom: 0.5rem;
+  line-height: 160%;
 }
 body main .content-row-1 {
   margin-top: 2rem;
