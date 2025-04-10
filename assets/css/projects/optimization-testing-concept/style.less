@@ -186,14 +186,25 @@ body{
         padding:2rem 2rem 1rem 2rem;
         border-radius:6px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-        a{
-          .font-p;
-          text-decoration: none;
-          font-weight:600;
-          color:blue;
-          &:hover{
-            text-decoration: underline;
-            color:blue;
+        .container-50_50{
+          display:grid;
+          grid-template-columns: 2fr 1fr;
+          grid-gap:2em;
+          div{
+            img{
+              box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+              max-width:100%;
+            }
+            a{
+              .font-p;
+              text-decoration: none;
+              font-weight:600;
+              color:blue;
+              &:hover{
+                text-decoration: underline;
+                color:blue;
+              }
+            }
           }
         }
       }

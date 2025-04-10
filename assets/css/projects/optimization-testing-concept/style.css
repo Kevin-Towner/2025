@@ -224,7 +224,16 @@ body main .content-row-5 #content-row-5-container-1 {
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
-body main .content-row-5 #content-row-5-container-1 a {
+body main .content-row-5 #content-row-5-container-1 .container-50_50 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2em;
+}
+body main .content-row-5 #content-row-5-container-1 .container-50_50 div img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  max-width: 100%;
+}
+body main .content-row-5 #content-row-5-container-1 .container-50_50 div a {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -237,7 +246,7 @@ body main .content-row-5 #content-row-5-container-1 a {
   font-weight: 600;
   color: blue;
 }
-body main .content-row-5 #content-row-5-container-1 a:hover {
+body main .content-row-5 #content-row-5-container-1 .container-50_50 div a:hover {
   text-decoration: underline;
   color: blue;
 }
