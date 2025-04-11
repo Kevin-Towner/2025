@@ -35,6 +35,13 @@
     flex-direction: column;
     margin-left:1rem;
   }
+  main .main-content .content-row-3 #content-row-3-container-1 .container-50_50{
+    flex-direction: column-reverse;
+    gap:2rem;
+  }
+  main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 div a img{
+    max-width:100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -80,6 +87,9 @@
   }
   main .main-content .content-row-2 #content-row-2-container-1 .row-content-2-key ul #li-beginner{
     font-size:12.5px;
+  }
+  main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 div p{
+    font-size:14.5px;
   }
   main .main-content .content-row-4 #content-row-4-container-full .container-50_50 .project-tile a div div .project-tile-brief{
     font-size:14.5px;
