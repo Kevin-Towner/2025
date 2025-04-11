@@ -295,6 +295,10 @@ main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .r
 main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-context {
   width: 67%;
 }
+main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-context a img {
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
 main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-context p {
   margin-bottom: 1rem;
 }
