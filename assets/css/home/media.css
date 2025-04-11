@@ -39,7 +39,13 @@
     flex-direction: column-reverse;
     gap:2rem;
   }
-  main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 div a img{
+  main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-context{
+    width:100%;
+  }
+  main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-image{
+    width:100%;
+  }
+  main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-image a img{
     max-width:100%;
   }
 }

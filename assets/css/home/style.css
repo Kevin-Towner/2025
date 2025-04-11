@@ -285,14 +285,18 @@ main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 {
   flex-direction: row;
   align-items: center;
 }
-main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 div {
+main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-image {
   align-items: center;
+  width: 33%;
 }
-main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 div p {
-  margin-bottom: 1rem;
-}
-main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 div a img {
+main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-image a img {
   max-width: 80%;
+}
+main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-context {
+  width: 67%;
+}
+main .main-content .content-row-3 #content-row-3-container-1 .container-50_50 .row-50_50-context p {
+  margin-bottom: 1rem;
 }
 main .main-content .content-row-3 #content-row-3-container-2 img {
   max-width: 100%;
