@@ -123,6 +123,17 @@ main{
     .content-row-1{
       margin-bottom:3rem;
       div{
+        .container-h1{
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          img{
+            margin-bottom:1.33rem;
+            max-width:46px;
+            margin-right:.67rem;
+            display:none;
+          }
+        }
         .intro{
           color:#565656;
         }
@@ -133,22 +144,17 @@ main{
       #content-row-2-container-1{
         color:#565656;
         background:#FEFEFE;
-        padding:1rem 1rem 1rem 1rem;
+        padding:2rem 1rem 1rem 1rem;
         border-radius:6px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
         display:flex;
         flex-direction: column;
         .container-33_33_33{
-          display:grid;
-          grid-template-columns: 1fr 1fr 1fr;
+          display:flex;
+          gap:6rem;
           margin-bottom:1rem;
           margin-left:1rem;
           div{
-            img{
-              max-width:70%;
-              float: right;
-              border-radius:2px;
-            }
             ul{
               li{
                 line-height:175%;
