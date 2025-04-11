@@ -21,6 +21,10 @@
     display:block;
     left:0;
   }
+  nav .nav-content{
+    justify-content: flex-start;
+    margin-left:5vw;
+  }
   nav .nav-content #navigation-right #menu li a{
     font-size:14.5px;
   }
