@@ -9,7 +9,7 @@
 }
 nav {
   display: none;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   background-color: #FFF;
   width: 100%;
   border-bottom: 1px solid #c4c4c4;
@@ -47,16 +47,16 @@ nav .nav-content #navigation-right #menu {
   line-height: 0;
 }
 nav .nav-content #navigation-right #menu li:nth-child(1) a {
-  margin-right: 0.7rem;
+  margin-right: 1rem;
 }
 nav .nav-content #navigation-right #menu li:nth-child(2) a {
-  margin-right: 0.7rem;
+  margin-right: 1rem;
 }
 nav .nav-content #navigation-right #menu li:nth-child(3) a {
-  margin-right: 0.7rem;
+  margin-right: 1rem;
 }
 nav .nav-content #navigation-right #menu li:nth-child(4) a {
-  margin-right: 0.7rem;
+  margin-right: 1rem;
 }
 nav .nav-content #navigation-right #menu li a {
   text-decoration: none;
