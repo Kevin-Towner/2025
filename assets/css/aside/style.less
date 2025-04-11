@@ -24,7 +24,6 @@ aside{
   top:4rem;
   border-radius:6px;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-  padding-bottom:4rem;
   p, li, span{
     .font-p;
   }
@@ -98,6 +97,38 @@ aside{
               color:#0047FF;
               &:before{
                 content:url("../../images/branding/icons/skills-hover.png");
+              }
+              &:after{
+                content:"⇢";
+                color:blue;
+                position:relative;
+                margin-left:1rem;
+              }
+            }
+          }
+        }
+        #anchor-prof{
+          .nav-item{
+            p{
+              margin-left:2rem;
+              &:before{
+                content:url("../../images/branding/icons/prof-default.png");
+                position:relative;
+                top:6px;
+                padding-right:1rem;
+              }
+              &:after{
+                position:relative;
+                margin-left:1rem;
+              }
+            }
+          }
+          &:hover{
+            background:#edeff3;
+            p{
+              color:#0047FF;
+              &:before{
+                content:url("../../images/branding/icons/prof-hover.png");
               }
               &:after{
                 content:"⇢";

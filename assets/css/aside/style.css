@@ -19,7 +19,6 @@ aside {
   top: 4rem;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-  padding-bottom: 4rem;
 }
 aside p,
 aside li,
@@ -104,6 +103,34 @@ aside #nav-row-2 ul li #anchor-skills:hover p:before {
   content: url("../../images/branding/icons/skills-hover.png");
 }
 aside #nav-row-2 ul li #anchor-skills:hover p:after {
+  content: "⇢";
+  color: blue;
+  position: relative;
+  margin-left: 1rem;
+}
+aside #nav-row-2 ul li #anchor-prof .nav-item p {
+  margin-left: 2rem;
+}
+aside #nav-row-2 ul li #anchor-prof .nav-item p:before {
+  content: url("../../images/branding/icons/prof-default.png");
+  position: relative;
+  top: 6px;
+  padding-right: 1rem;
+}
+aside #nav-row-2 ul li #anchor-prof .nav-item p:after {
+  position: relative;
+  margin-left: 1rem;
+}
+aside #nav-row-2 ul li #anchor-prof:hover {
+  background: #edeff3;
+}
+aside #nav-row-2 ul li #anchor-prof:hover p {
+  color: #0047FF;
+}
+aside #nav-row-2 ul li #anchor-prof:hover p:before {
+  content: url("../../images/branding/icons/prof-hover.png");
+}
+aside #nav-row-2 ul li #anchor-prof:hover p:after {
   content: "⇢";
   color: blue;
   position: relative;
